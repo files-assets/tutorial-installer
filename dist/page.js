@@ -1,7 +1,7 @@
 /*
- *! all.js
+ *! page.js
  *
- * Todos os arquivos do projeto serão compilados aqui.
+ * Todos os arquivos do Instalador (página em si) encontram-se aqui.
  * Copyright (c) 2017. Todos os direitos reservados.
  *
  * MIT Licence.
