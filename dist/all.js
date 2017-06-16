@@ -1,7 +1,7 @@
 /*
  *! all.js
  *
- * Todos os arquivos do projeto serão compilados aqui.
+ * Todos os arquivos do instalador serão compilados aqui.
  * Copyright (c) 2017. Todos os direitos reservados.
  *
  * MIT Licence.
