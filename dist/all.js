@@ -22,6 +22,6 @@
   });
 
   $(window).on('load', function () {
-    console.log('[Instalador] Página carregada!');
+    console.log('[Instalador] Página carregada! [all.js]');
   });
 }(jQuery));
