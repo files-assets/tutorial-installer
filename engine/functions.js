@@ -1,5 +1,5 @@
 /*
- *! page.js
+ *! functions.js
  *
  * Todos os arquivos do Instalador (página em si) encontram-se aqui.
  * Copyright (c) 2017. Todos os direitos reservados.
