@@ -20,96 +20,98 @@
   <title>Instalador de Tutoriais | Forumeiros</title>
 </head>
 <body>
-  <div class="wrapper">
-  	<h1>Instalador de Tutoriais</h1>
-  	<p>
-  		Com este instalador, você tem a capacidade de instalar tutoriais atualizados e adicionados em tempo real pela equipe do Fórum dos Fóruns!
-  		De tempos em tempos, novos tutoriais são adicionados para você usar e personalizar seu fórum mais e mais!
-  	</p>
-  </div>
-  <div class="install-part" id="select-tutorial">
-  	<h2>Escolha o tutorial</h2>
-  	<p>
-  		No menu <code>select</code> abaixo, temos uma lista de todos os tutoriais disponíveis atualmente. Selecione um deles para ver suas <strong>especificações</strong>.
-  		<br />
-  		Lembre-se que estes tutoriais são atualizados de tempos em tempos pela nossa equipe. Portanto, fique ligado!
-  	</p>
-    <div id="select-inner">
-      <select name="tutorial-selection" id="select-tutorial" class="form-field">
-        <!-- JS control -->
-      </select>
+  <div class="pseudo-body" style="z-index: 999999999999999999;">
+    <div class="wrapper">
+    	<h1>Instalador de Tutoriais</h1>
+    	<p>
+    		Com este instalador, você tem a capacidade de instalar tutoriais atualizados e adicionados em tempo real pela equipe do Fórum dos Fóruns!
+    		De tempos em tempos, novos tutoriais são adicionados para você usar e personalizar seu fórum mais e mais!
+    	</p>
     </div>
-  </div>
-  <div class="install-part" id="config-tutorial">
-    <h2>Configurar e Confirmar</h2>
-    <p>
-      Nos campos abaixo você terá a opção de configurar seu tutorial.
-    </p>
-    <div class="tutorial-config-inner">
-      <div class="tutorial-info-part">
-        Nome do tutorial: <span id="tutorial-name" class="form-field"></span>.
+    <div class="install-part" id="select-tutorial">
+    	<h2>Escolha o tutorial</h2>
+    	<p>
+    		No menu <code>select</code> abaixo, temos uma lista de todos os tutoriais disponíveis atualmente. Selecione um deles para ver suas <strong>especificações</strong>.
+    		<br />
+    		Lembre-se que estes tutoriais são atualizados de tempos em tempos pela nossa equipe. Portanto, fique ligado!
+    	</p>
+      <div id="select-inner">
+        <select name="tutorial-selection" id="select-tutorial" class="form-field">
+          <!-- JS control -->
+        </select>
       </div>
-      <div class="tutorial-info-part">
-        Descrição do tutorial: <span id="tutorial-desc" class="form-field"></span>.
-      </div>
-      <div class="tutorial-info-part">
-        Autor do tutorial: <span id="tutorial-author" class="form-field"></span>.
-      </div>
-      <div class="tutorial-info-part">
-        Versão do tutorial: <span id="tutorial-version" class="form-field"></span>.
-      </div>
-      <div class="tutorial-entry-user-config">
-        <h3>Configurar</h3>
-        <p>
-          Configure o título, investimento e código do tutorial caso considerar necessário. Recomendamos deixar nos padrões.
-        </p>
-        <form class="fieldset-form" id="javascript-config" name="formenvoi">
-          <fieldset>
-            <!-- Título -->
-            <dl>
-              <dt>
-                <label for="javascript-name">Título da página JavaScript:</label>
-              </dt>
-              <dd>
-                <input type="text" id="javascript-name" value="" name="title" class="form-field" maxlength="100" required />
-              </dd>
-            </dl>
-  
-            <!-- Investimento -->
-            <dl>
-              <dt>
-                <label>Investimento da página JavaScript:</label>
-              </dt>
-              <dd>
-                <input class="checkbox" type="checkbox" class="fa-non-all-pages" name="js_placement[]" id="js_placement_index" value="index" />
-                <label for="js_placement_index">No índice</label>
-                
-                <input class="checkbox" type="checkbox" class="fa-non-all-pages" name="js_placement[]" id="js_placement_portal" value="portal" />
-                <label for="js_placement_portal">No portal</label>
-  
-                <input class="checkbox" type="checkbox" class="fa-non-all-pages" name="js_placement[]" id="js_placement_viewforum" value="viewforum" />
-                <label for="js_placement_viewforum">Nos sub-fóruns</label>
-  
-                <input class="checkbox" type="checkbox" class="fa-non-all-pages" name="js_placement[]" id="js_placement_viewtopic" value="viewtopic" />
-                <label for="js_placement_viewtopic">Nos tópicos</label>
-  
-                <input class="checkbox" type="checkbox" class="fa-non-all-pages" name="js_placement[]" id="js_placement_gallery" value="gallery" />
-                <label for="js_placement_gallery">Na galeria</label>
-              </dd>
-              <dt>&nbsp;</dt>
-              <dd>
-                <input class="checkbox" type="checkbox" name="js_placement[]" id="js_placement_all" value="allpages" />
-                <label for="js_placement_all">Em todas as páginas</label>
-              </dd>
-            </dl>
-          </fieldset>
-  
-          <!-- Código -->
-          <label for="js_content">Código JavaScript:</label>
-          <textarea name="content" id="js_content" class="codebox js-codebox"></textarea>
-  
-          <input id="submit" type="submit" name="submit" value="Instalar" />
-        </form>
+    </div>
+    <div class="install-part" id="config-tutorial">
+      <h2>Configurar e Confirmar</h2>
+      <p>
+        Nos campos abaixo você terá a opção de configurar seu tutorial.
+      </p>
+      <div class="tutorial-config-inner">
+        <div class="tutorial-info-part">
+          Nome do tutorial: <span id="tutorial-name" class="form-field"></span>.
+        </div>
+        <div class="tutorial-info-part">
+          Descrição do tutorial: <span id="tutorial-desc" class="form-field"></span>.
+        </div>
+        <div class="tutorial-info-part">
+          Autor do tutorial: <span id="tutorial-author" class="form-field"></span>.
+        </div>
+        <div class="tutorial-info-part">
+          Versão do tutorial: <span id="tutorial-version" class="form-field"></span>.
+        </div>
+        <div class="tutorial-entry-user-config">
+          <h3>Configurar</h3>
+          <p>
+            Configure o título, investimento e código do tutorial caso considerar necessário. Recomendamos deixar nos padrões.
+          </p>
+          <form class="fieldset-form" id="javascript-config" name="formenvoi">
+            <fieldset>
+              <!-- Título -->
+              <dl>
+                <dt>
+                  <label for="javascript-name">Título da página JavaScript:</label>
+                </dt>
+                <dd>
+                  <input type="text" id="javascript-name" value="" name="title" class="form-field" maxlength="100" required />
+                </dd>
+              </dl>
+
+              <!-- Investimento -->
+              <dl>
+                <dt>
+                  <label>Investimento da página JavaScript:</label>
+                </dt>
+                <dd>
+                  <input class="checkbox" type="checkbox" class="fa-non-all-pages" name="js_placement[]" id="js_placement_index" value="index" />
+                  <label for="js_placement_index">No índice</label>
+
+                  <input class="checkbox" type="checkbox" class="fa-non-all-pages" name="js_placement[]" id="js_placement_portal" value="portal" />
+                  <label for="js_placement_portal">No portal</label>
+
+                  <input class="checkbox" type="checkbox" class="fa-non-all-pages" name="js_placement[]" id="js_placement_viewforum" value="viewforum" />
+                  <label for="js_placement_viewforum">Nos sub-fóruns</label>
+
+                  <input class="checkbox" type="checkbox" class="fa-non-all-pages" name="js_placement[]" id="js_placement_viewtopic" value="viewtopic" />
+                  <label for="js_placement_viewtopic">Nos tópicos</label>
+
+                  <input class="checkbox" type="checkbox" class="fa-non-all-pages" name="js_placement[]" id="js_placement_gallery" value="gallery" />
+                  <label for="js_placement_gallery">Na galeria</label>
+                </dd>
+                <dt>&nbsp;</dt>
+                <dd>
+                  <input class="checkbox" type="checkbox" name="js_placement[]" id="js_placement_all" value="allpages" />
+                  <label for="js_placement_all">Em todas as páginas</label>
+                </dd>
+              </dl>
+            </fieldset>
+
+            <!-- Código -->
+            <label for="js_content">Código JavaScript:</label>
+            <textarea name="content" id="js_content" class="codebox js-codebox"></textarea>
+
+            <input id="submit" type="submit" name="submit" value="Instalar" />
+          </form>
+        </div>
       </div>
     </div>
   </div>
