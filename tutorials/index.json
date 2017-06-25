@@ -1,7 +1,7 @@
 {
   "tutorials": [
     {
-      "name": "Nome do tutorial",
+      "name": "Tutorial 1. (:",
       "description": "Descrição do tutorial",
       "type": "javascript",
       "invest": "all_pages",
@@ -11,7 +11,7 @@
       "version": 1.0
     },
     {
-      "name": "Nome do tutorial",
+      "name": "Tutorial 2. (:",
       "description": "Descrição do tutorial",
       "type": "javascript",
       "invest": "all_pages",
